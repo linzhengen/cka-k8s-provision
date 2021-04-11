@@ -1,12 +1,13 @@
-# k8s-kind-cka
+# cka-k8s-provision
 
-## Installation
+## kind
+### Installation
 ```
 brew install kind
 kind create cluster --config kind-config.yaml
 ```
 
-## kind Cluster configuration
+### kind Cluster configuration
 ```
 ▸ kubectl get node
 NAME                  STATUS     ROLES                  AGE   VERSION
